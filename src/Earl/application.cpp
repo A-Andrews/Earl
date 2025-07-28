@@ -1,5 +1,6 @@
 #include <Earl/application.hpp>
 #include <iostream>
+#include <Earl/log.hpp>
 
 namespace Earl
 {
@@ -11,6 +12,6 @@ namespace Earl
     }
     void Application::run()
     {
-        std::printf("Earl is running!\n");
+        EARL_CORE_INFO("Application is running!");
     }
 }

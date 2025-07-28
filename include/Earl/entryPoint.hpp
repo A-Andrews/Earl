@@ -1,6 +1,7 @@
 #pragma once
 #include <memory>
 #include <Earl/application.hpp>
+#include <Earl/log.hpp>
 
 namespace Earl
 {
